@@ -1,0 +1,195 @@
+/*
+Create by SAALEE groups
+*/
+.bg-white {
+    background-color: #ffffff; /* For browsers that do not support gradients */
+}
+.bg-f7 {
+    background-color: #f7f7f7; /* For browsers that do not support gradients */
+}
+.bg-ios {
+    background: #3f77a4; /* Old browsers */
+	background: -webkit-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: -moz-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: -o-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: -ms-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-blue {
+    background: #1D77EF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1D77EF, #81F3FD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1D77EF, #81F3FD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1D77EF, #81F3FD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1D77EF, #81F3FD); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-blue-1 {
+    background: #1AD6FD; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1AD6FD, #1D62F0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1AD6FD, #1D62F0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1AD6FD, #1D62F0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1AD6FD, #1D62F0); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-blue-2 {
+    background: #52EDC7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#52EDC7, #5AC8FB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#52EDC7, #5AC8FB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#52EDC7, #5AC8FB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#52EDC7, #5AC8FB); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-blue-3 {
+    background: #3DB2AA; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3DB2AA, #5B5476); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3DB2AA, #5B5476); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3DB2AA, #5B5476); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3DB2AA, #5B5476); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-blue-4 {
+    background-color: #34AADC; /* For browsers that do not support gradients */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-ios-red {
+    background: #FF5E3A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF5E3A, #FF2A68); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF5E3A, #FF2A68); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF5E3A, #FF2A68); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF5E3A, #FF2A68); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-red-1 {
+    background: #FB2B69; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FB2B69, #FF5B37); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FB2B69, #FF5B37); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FB2B69, #FF5B37); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FB2B69, #FF5B37); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-purple {
+    background: #EF4DB6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#EF4DB6, #C643FC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EF4DB6, #C643FC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EF4DB6, #C643FC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EF4DB6, #C643FC); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-purple-1 {
+    background: #C644FC; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#C644FC, #5856D6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C644FC, #5856D6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C644FC, #5856D6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C644FC, #5856D6); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-purple-2 {
+    background: #C86EDF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#C86EDF, #E4B7F0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C86EDF, #E4B7F0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C86EDF, #E4B7F0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C86EDF, #E4B7F0); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-gray {
+    background: #F7F7F7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F7F7F7, #D7D7D7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F7F7F7, #D7D7D7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F7F7F7, #D7D7D7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F7F7F7, #D7D7D7); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-gray-1 {
+    background: #DBDDDE; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#DBDDDE, #898C90); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#DBDDDE, #898C90); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#DBDDDE, #898C90); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#DBDDDE, #898C90); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-dark {
+    background: #4A4A4A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#4A4A4A, #2B2B2B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4A4A4A, #2B2B2B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4A4A4A, #2B2B2B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4A4A4A, #2B2B2B); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-orange {
+    background: #FF9500; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9500, #FF5E3A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9500, #FF5E3A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9500, #FF5E3A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9500, #FF5E3A); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-green {
+    background: #87FC70; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#87FC70, #0BD318); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#87FC70, #0BD318); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#87FC70, #0BD318); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#87FC70, #0BD318); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg-ios-yellow {
+    background: #FFDB4C; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFDB4C, #FFCD02); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFDB4C, #FFCD02); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFDB4C, #FFCD02); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFDB4C, #FFCD02); /* Standard syntax */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
