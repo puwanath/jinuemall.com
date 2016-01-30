@@ -57,6 +57,16 @@
 			</div>
 		</section>
 		<!-- END SLIDER -->
+		
+		<!--package upgrade-->	
+		<?php
+		if($me_login!=null){
+			
+		}
+		
+		?>
+		
+		<!--end package upgrade-->
 
 		<!-- TOP PRODUCT -->
 		<section class="product-featured _2">

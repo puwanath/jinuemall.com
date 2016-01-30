@@ -38,8 +38,8 @@
 						<h2 class="title-f"><?php echo wordvar('ติดตามข่าวสาร Jinuemall.com ได้ที่');?></h2>
 						<div style="display:inline-block; margin-top:12px;">
 							<a href="https://facebook.com/jinuemall"><div style="float:left; margin:0px 7px 10px 0px"><img src="<?php echo $site_dir;?>/images/social/facebook.png" style="max-width:29px;"></div></a>
-							<a href="https://www.youtube.com/channel/UCJzjfksureg6zBJLdeNqROQ"><div style="float:left; margin:0px 7px 10px 0px"><img src="<?php echo $site_dir;?>/images/social/youtube.png" style="max-width:29px;"></div>
-							<a href="http://instagram.com/jinuemall"><div style="float:left; margin:0px 7px 10px 0px"><img src="<?php echo $site_dir;?>/images/social/instagram.png" style="max-width:29px;"></div>
+							<a href="https://www.youtube.com/channel/UCJzjfksureg6zBJLdeNqROQ"><div style="float:left; margin:0px 7px 10px 0px"><img src="<?php echo $site_dir;?>/images/social/youtube.png" style="max-width:29px;"></div></a>
+							<a href="http://instagram.com/jinuemall"><div style="float:left; margin:0px 7px 10px 0px"><img src="<?php echo $site_dir;?>/images/social/instagram.png" style="max-width:29px;"></div></a>
 							<a href="https://plus.google.com/110960154543749240662/posts"><div style="float:left; margin:0px 7px 10px 0px"><img src="<?php echo $site_dir;?>/images/social/google.png" style="max-width:29px;"></div></a>
 						</div>
 						<a href="#" class="suggest-box"> แนะนำ-ติชม และแจ้งปัญหาการใช้งาน</a>
