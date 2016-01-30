@@ -68,6 +68,8 @@ if($process=="member_signup"){
 			$basket[80]=1;
 		}elseif($product_set=="facial-massage"){
 			$basket[81]=1;
+		}else{
+			$basket[0]=0;
 		}
 		
 		
@@ -104,7 +106,15 @@ if($process=="member_signup"){
 	
 	
 		//Direct bonus
-		if($signup_package==0) $bonus_direct=3; else $bonus_direct=$package_pv*0.15; //direct bonus get 10% of package pv		
+		if($signup_package==0)
+			$direct_bonus=3;
+		else if($signup_package==1)
+			$direct_bonus=$total_pv*0.10;
+		else if($signup_package>=2 && $signup_package<=7)
+			$direct_bonus=$total_pv*0.15;
+		else 
+			$direct_bonus=0;
+		
 		bonus_direct($member_id,$bonus_direct);	
 	}
 }elseif($process=="member_settings"){
@@ -348,7 +358,13 @@ if($action=="post_add"){
 			$sponsor_package=$sponsor_package['package_id'];
 
 			// start bonus
-			bonus_direct($member_id,$total_pv*0.15);	
+			if($sponsor_package['package_id']==1)
+				$direct_bonus=$total_pv*0.10;
+			else if($sponsor_package['package_id']>=2 && $sponsor_package['package_id']<=7)
+				$direct_bonus=$total_pv*0.15;
+			else $direct_bonus=0;
+			
+			bonus_direct($member_id,$direct_bonus);	
 			bonus_ss($member_id,$total_pv); 			//Super starter(SS)
 			upgrade_to_ss($member_id,$upgrade_package_id); 		//Upgrade Super starter(SS)
 			bonus_sd_sdmatching($member_id,$total_pv);

@@ -363,9 +363,8 @@ function upgrade_package($member_id=null,$total_pv=0){
 			
 function bonus_direct($member_id=0,$bonus_direct=0){
 	$connect=Database();
-	$sponsor=mysqli_fetch_assoc(mysqli_query($connect,"SELECT sponsor FROM members WHERE member_id=$member_id;"));
-	$sponsor=$sponsor['sponsor'];
-	$sponsor_result=mysqli_fetch_array(mysqli_query($connect,"SELECT jWallet,rMoney FROM members WHERE member_id=$sponsor;"));
+	$sponsor=select_data('members','sponsor',"member_id=$member_id");
+	$sponsor_result=mysqli_fetch_assoc(mysqli_query($connect,"SELECT jWallet,rMoney FROM members WHERE member_id=$sponsor;"));
 	$jWallet=$sponsor_result['jWallet'];
 	$rMoney=$sponsor_result['rMoney'];
 		
